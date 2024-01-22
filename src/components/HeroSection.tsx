@@ -1,11 +1,20 @@
 import React from "react";
 import ChevronRightSvg from "./icons/ChevronRightSvg";
 import Link from "next/link";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
     <section className="relative">
-      <div className="bg-gray-500 h-96 mb-48"></div>
+      <div className="h-96 mb-36 relative overflow-hidden">
+        <Image
+          className="object-cover absolute"
+          src="/images/hero.jpg"
+          alt="hero"
+          fill
+          sizes="100vw"
+        />
+      </div>
       <div className="mx-4 p-8 bg-gray-200 flex flex-col gap-2 absolute top-60 sm:max-w-[500px] lg:ml-48 sm:top-48 ">
         <h2 className="font-semibold text-lg">Titulo 1</h2>
         <p>

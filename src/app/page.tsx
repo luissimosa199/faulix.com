@@ -4,7 +4,6 @@ import HeroSection from "@/components/HeroSection";
 import IndustriesSection from "@/components/IndustriesSection";
 import PortfolioSection from "@/components/PortfolioSection";
 import ServicesSection from "@/components/ServicesSection";
-import SocialNetworkSection from "@/components/SocialNetworkSection";
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
       <ServicesSection />
       <PortfolioSection />
       <ContactSection />
-      <SocialNetworkSection />
     </main>
   );
 }
