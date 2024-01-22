@@ -34,7 +34,7 @@ const ServicesSection = () => {
     <section>
       <SectionTitle>Te ayudaremos a: </SectionTitle>
 
-      <div className="flex flex-col sm:flex-row sm:flex-wrap">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
         {servicesData.map((e) => {
           return (
             <BlogPostCard
