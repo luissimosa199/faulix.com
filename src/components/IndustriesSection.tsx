@@ -43,15 +43,17 @@ const industriesData: IndustryData[] = [
 
 const IndustriesSection = () => {
   return (
-    <section>
-      <SectionTitle>Industrias en las que nos especializamos:</SectionTitle>
+    <section className=" md:flex md:justify-center md:items-center">
+      <SectionTitle className="md:max-w-xs sm:text-center">
+        Industrias en las que nos especializamos:
+      </SectionTitle>
       <div className="flex flex-wrap">
         {industriesData.map((e) => {
           const Icon = e.icon;
           return (
             <div
               key={e.id}
-              className="w-1/2 flex flex-col justify-center items-center p-4 hover:opacity-75 transition-opacity ease-in-out"
+              className="w-1/2 md:w-1/3 flex flex-col justify-center items-center p-4 hover:opacity-75 transition-opacity ease-in-out"
             >
               <Icon
                 width={80}
