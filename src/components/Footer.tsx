@@ -27,51 +27,41 @@ const Footer = () => {
         </div>
         <div className="flex flex-wrap">
           <Link
-            href="#"
+            href="/#inicio"
             className="w-1/2 text-gray-200 text-lg mb-2"
           >
-            Link
+            Inicio
           </Link>
           <Link
-            href="#"
+            href="/#industrias"
             className="w-1/2 text-gray-200 text-lg mb-2"
           >
-            Link
+            Industrias
           </Link>
           <Link
-            href="#"
+            href="/#clientes"
             className="w-1/2 text-gray-200 text-lg mb-2"
           >
-            Link
+            Clientes
           </Link>
           <Link
-            href="#"
+            href="/#servicios"
             className="w-1/2 text-gray-200 text-lg mb-2"
           >
-            Link
+            Servicios
           </Link>
           <Link
-            href="#"
+            href="/#trabajo"
             className="w-1/2 text-gray-200 text-lg mb-2"
           >
-            Link
+            Trabajo
           </Link>
           <Link
-            href="#"
+            href="/#contacto"
             className="w-1/2 text-gray-200 text-lg mb-2"
           >
-            Link
+            Contacto
           </Link>
-          <Link
-            href="#"
-            className="w-1/2 text-gray-200 text-lg mb-2"
-          >
-            Link
-          </Link>
-          <Link
-            href="#"
-            className="w-1/2 text-gray-200 text-lg mb-2"
-          ></Link>
         </div>
         <div className=" mb-4 sm:mb-0 ">
           <p className="text-gray-200">

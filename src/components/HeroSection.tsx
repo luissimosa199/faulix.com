@@ -5,7 +5,10 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="relative">
+    <section
+      className="relative"
+      id="inicio"
+    >
       <div className="h-96 mb-36 relative overflow-hidden">
         <Image
           className="object-cover absolute"

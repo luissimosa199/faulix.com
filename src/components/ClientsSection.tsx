@@ -14,7 +14,10 @@ const ClientsSection = () => {
   };
 
   return (
-    <section className="bg-gray-200 p-4 sm:px-48">
+    <section
+      id="clientes"
+      className="bg-gray-200 p-4 sm:px-48"
+    >
       <SectionTitle className="text-center">
         Contribuimos significativamente al avance y prosperidad de los negocios
         de las siguientes firmas

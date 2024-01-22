@@ -43,7 +43,10 @@ const industriesData: IndustryData[] = [
 
 const IndustriesSection = () => {
   return (
-    <section className=" md:flex md:justify-center md:items-center">
+    <section
+      id="industrias"
+      className=" md:flex md:justify-center md:items-center"
+    >
       <SectionTitle className="md:max-w-xs sm:text-center">
         Industrias en las que nos especializamos:
       </SectionTitle>

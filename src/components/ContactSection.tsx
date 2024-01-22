@@ -4,7 +4,10 @@ import SectionTitle from "./SectionTitle";
 
 const ContactSection = () => {
   return (
-    <section className="py-8 sm:flex sm:justify-center">
+    <section
+      id="contacto"
+      className="py-8 sm:flex sm:justify-center"
+    >
       <SectionTitle className="text-center mb-12">Contactanos</SectionTitle>
       <div className="flex flex-col gap-1 mx-2 sm:flex-row">
         <Link href="#">

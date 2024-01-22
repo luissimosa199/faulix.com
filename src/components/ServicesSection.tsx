@@ -5,7 +5,7 @@ import { servicesData } from "@/data/servicesData";
 
 const ServicesSection = () => {
   return (
-    <section>
+    <section id="servicios">
       <SectionTitle>Te ayudaremos a: </SectionTitle>
       <div className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
         {servicesData.map((e) => {
