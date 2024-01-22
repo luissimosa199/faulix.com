@@ -12,7 +12,7 @@ const BlogPostCard = ({
   url: string;
 }) => {
   return (
-    <div className="p-4">
+    <div className="p-4 sm:w-80">
       <Link
         href={url}
         className="group"

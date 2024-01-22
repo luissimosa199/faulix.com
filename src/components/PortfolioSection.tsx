@@ -7,7 +7,7 @@ const PortfolioSection = () => {
   return (
     <section className="bg-gray-200 py-4">
       <SectionTitle>Nuestro trabajo</SectionTitle>
-      <div className="flex flex-col">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
         {portfolioData.map((e) => {
           return (
             <BlogPostCard
