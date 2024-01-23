@@ -16,7 +16,7 @@ const Project = ({ params: { slug } }: { params: { slug: string } }) => {
         <div className="bg-gray-600">
           <div className="w-full sm:w-1/2 h-52 sm:h-96 sm:mx-auto relative overflow-hidden">
             <Image
-              className="objecet-cover absolute"
+              className="object-cover absolute"
               src={project.image}
               alt={project.title}
               fill
