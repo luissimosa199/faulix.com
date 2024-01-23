@@ -19,12 +19,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const agentCookie = cookies().get("user_agent_id")?.value;
+  // const agentCookie = cookies().get("user_agent_id")?.value;
 
   return (
     <html lang="es">
       <body className={inter.className}>
-        <Header agentCookie={agentCookie} />
+        {/* <Header agentCookie={agentCookie} /> */}
         {children}
         <Footer />
       </body>
