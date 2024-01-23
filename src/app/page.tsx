@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-4">
       <HeroSection />
-      <IndustriesSection />
-      <ClientsSection />
-      {/* <ServicesSection /> */}
-      <PortfolioSection />
+      {/* <IndustriesSection /> */}
+      {/* <ClientsSection /> */}
+      <ServicesSection />
+      {/* <PortfolioSection /> */}
       <ContactSection />
     </main>
   );
