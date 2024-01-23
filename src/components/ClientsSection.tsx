@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import SectionTitle from "./SectionTitle";
-// import Slider from "react-slick";
+import Slider from "react-slick";
 import Image from "next/image";
 
 const ClientsSection = () => {
