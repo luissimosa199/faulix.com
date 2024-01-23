@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex flex-col gap-4">
       <HeroSection />
       {/* <IndustriesSection /> */}
-      <ClientsSection />
+      {/* <ClientsSection /> */}
       <ServicesSection />
       {/* <PortfolioSection /> */}
       <ContactSection />
