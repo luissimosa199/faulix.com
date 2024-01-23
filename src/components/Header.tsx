@@ -4,8 +4,11 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import MobileNav from "./MobileNav";
+import useTrackUserAgent from "@/hooks/useTrackUserAgent";
 
-const Header = () => {
+const Header = ({ agentCookie }: { agentCookie: string | undefined }) => {
+  useTrackUserAgent(agentCookie);
+
   const path = usePathname();
   const [showMenu, toggleMenu] = useState<boolean>(false);
 
@@ -53,7 +56,7 @@ const Header = () => {
             <Link href="/#trabajo">Trabajo</Link>
           </li>
           <li>
-            <Link href="/#contacto">Contacto</Link>
+            <Link href="/contacto">Contacto</Link>
           </li>
         </ul>
       </nav>

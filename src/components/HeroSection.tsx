@@ -16,6 +16,7 @@ const HeroSection = () => {
           alt="hero"
           fill
           sizes="100vw"
+          priority
         />
       </div>
       <div className="mx-4 p-8 bg-gray-200 flex flex-col gap-2 absolute top-60 sm:max-w-[500px] lg:ml-48 sm:top-48 ">

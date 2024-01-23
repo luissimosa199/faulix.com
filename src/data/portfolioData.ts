@@ -7,6 +7,7 @@ export const portfolioData = [
     url: "https://www.ypf.com/Paginas/home.aspx",
     slug: "ypf",
     photos: [],
+    text: "YPF, siglas de Yacimientos Petrolíferos Fiscales, S. A., es una empresa argentina de energía dedicada a la exploración, explotación, destilación, distribución y producción de energía eléctrica, gas, petróleo y derivados de los hidrocarburos y venta de combustibles, lubricantes, fertilizantes, plásticos y otros productos relacionados con la industria.",
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ export const portfolioData = [
       "/images/projects/wsassistant/1.png",
       "/images/projects/wsassistant/2.png",
     ],
+    text: "Nuestro proyecto integra la inteligencia artificial de OpenAI con WhatsApp y una plataforma web, ofreciendo una solución ágil para atención al cliente en diversos negocios. Permite consultas y pedidos eficientes, mejorando la interacción cliente-empresa con un asistente virtual adaptativo y fácil de usar.",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ export const portfolioData = [
       "/images/projects/doxa-flats/1.png",
       "/images/projects/doxa-flats/2.png",
     ],
+    text: "Explora casas y departamentos en alquiler en Argentina, ideal para turistas y nómadas digitales. Encuentra alojamientos perfectos para estadías cortas o prolongadas, con facilidad y seguridad.",
   },
   {
     id: 4,
@@ -40,6 +43,7 @@ export const portfolioData = [
     url: "https://chipas-web.vercel.app/",
     slug: "chipas",
     photos: ["/images/projects/chipas/1.png"],
+    text: "Desde el corazón de Corrientes, La Estación del Chipa ofrece deliciosas chipas congeladas, disponibles al por menor y al por mayor. Perfectas para disfrutar en cualquier momento, nuestras chipas mantienen la tradición y sabor auténtico, listas para hornear en tu hogar o negocio.",
   },
   {
     id: 5,
@@ -49,6 +53,7 @@ export const portfolioData = [
     url: "https://post-poster.vercel.app/",
     slug: "post-poster",
     photos: ["/images/projects/post-poster/1.png"],
+    text: "Herramienta de gestión y publicación automatica de contenido en redes sociales",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const portfolioData = [
     url: "https://www.doxadoctor.com/",
     slug: "doxadoctor",
     photos: ["/images/projects/doxadoctor/1.png"],
+    text: "Con presencia en más de tres países y cientos de miles de usuarios mensuales, nuestro directorio médico se posiciona como una herramienta esencial y confiable en el campo de la salud. Conectamos pacientes con una amplia red de profesionales y servicios médicos, facilitando el acceso a atención de calidad y especializada.",
   },
   {
     id: 7,
@@ -67,6 +73,7 @@ export const portfolioData = [
     url: "https://panel.doxadoctor.com/",
     slug: "doxa-panel",
     photos: ["/images/projects/doxa-panel/1.png"],
+    text: "Servicio web innovador diseñado para médicos, que facilita la organización de la información de sus pacientes y la realización de videoconsultas controladas. Este sistema no solo optimiza la gestión de datos clínicos, sino que también permite encuentros virtuales seguros y eficientes, mejorando la accesibilidad y calidad de la atención médica.",
   },
   {
     id: 8,
@@ -76,6 +83,7 @@ export const portfolioData = [
     url: "https://notas.doxadoctor.com/",
     slug: "notas-doxadoctor",
     photos: ["/images/projects/doxa-blog/1.png"],
+    text: "Blog potenciado con inteligencia artificial.",
   },
   {
     id: 9,
@@ -85,6 +93,7 @@ export const portfolioData = [
     url: "",
     slug: "pizzeria-el-conde",
     photos: [],
+    text: "Sistema de pedidos y atención al cliente multiplataforma potenciado por IA",
   },
   {
     id: 10,
@@ -98,6 +107,7 @@ export const portfolioData = [
       "/images/projects/faulix/2.png",
       "/images/projects/faulix/3.png",
     ],
+    text: "Portal para alquileres temporarios en Buenos Aires, Argentina.",
   },
   {
     id: 11,
@@ -107,6 +117,7 @@ export const portfolioData = [
     url: "https://bikebook.pro/",
     slug: "bikebook",
     photos: ["/images/projects/bikebook/1.png"],
+    text: "Servicio web que proporciona una plataforma especializada para ciclistas, ofreciendo un espacio donde pueden compartir de manera profesional sus experiencias, estadísticas detalladas de sus viajes y rutinas diarias. Este servicio está orientado a fomentar la colaboración y el intercambio de conocimientos en la comunidad ciclista, promoviendo un ambiente de crecimiento y aprendizaje continuo.",
   },
   {
     id: 12,
@@ -116,6 +127,7 @@ export const portfolioData = [
     url: "https://runnerbook.pro/",
     slug: "runnerbook",
     photos: ["/images/projects/runnerbook/1.png"],
+    text: "Servicio web que proporciona una plataforma especializada para runners, ofreciendo un espacio donde pueden compartir de manera profesional sus experiencias, estadísticas detalladas de sus viajes y rutinas diarias. Este servicio está orientado a fomentar la colaboración y el intercambio de conocimientos en la comunidad runner, promoviendo un ambiente de crecimiento y aprendizaje continuo.",
   },
   {
     id: 13,
@@ -125,6 +137,7 @@ export const portfolioData = [
     url: "https://contactos.doxadoctor.com/",
     slug: "contactos",
     photos: ["/images/projects/contactos/1.jpg"],
+    text: "Red social para adultos",
   },
   {
     id: 14,
@@ -134,6 +147,7 @@ export const portfolioData = [
     url: "",
     slug: "ambu-care",
     photos: [],
+    text: "Servicio rápido y eficiente para solicitar ambulancias, asegurando atención médica urgente con solo unos clics.",
   },
   {
     id: 15,
@@ -143,6 +157,7 @@ export const portfolioData = [
     url: "https://www.beconnected.com.ar/",
     slug: "beconnected",
     photos: ["/images/projects/beconnected/1.png"],
+    text: "BeConnected: WiFi portátil de alta calidad para mantenerte conectado en cualquier lugar. Ideal para teletrabajo, viajes y eventos, con cobertura en zonas urbanas y rurales, tanto para uso individual como empresarial.",
   },
   {
     id: 16,
@@ -152,6 +167,7 @@ export const portfolioData = [
     url: "https://www.betfriend.app/",
     slug: "betfriend",
     photos: ["/images/projects/betfriend/1.png"],
+    text: "BetFriend es un aplicativo móvil de entretenimiento que funciona como un asistente virtual de apuesta para videojuegos en línea.",
   },
   {
     id: 17,
@@ -161,6 +177,7 @@ export const portfolioData = [
     url: "",
     slug: "hector-julian",
     photos: [],
+    text: "Cirujano plástico",
   },
   {
     id: 18,
@@ -170,6 +187,7 @@ export const portfolioData = [
     url: "https://vpodesta.com/",
     slug: "victor-podesta",
     photos: ["/images/projects/victorpodesta/1.png"],
+    text: "",
   },
   {
     id: 19,
@@ -179,6 +197,7 @@ export const portfolioData = [
     url: "",
     slug: "bosques",
     photos: [],
+    text: "Distribuidora de maderas y postes impregnados",
   },
   {
     id: 20,
@@ -188,6 +207,7 @@ export const portfolioData = [
     url: "",
     slug: "nu",
     photos: [],
+    text: "Captura de huellas dactilares para confección de joyas personalizadas y únicas.",
   },
   {
     id: 21,
@@ -197,5 +217,6 @@ export const portfolioData = [
     url: "",
     slug: "carlos-gardenal",
     photos: [],
+    text: "Distribuidora Carlos Gardenal",
   },
 ];

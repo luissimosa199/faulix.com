@@ -5,16 +5,16 @@ import React from "react";
 const BlogPostCard = ({
   title,
   image,
-  url,
+  slug,
 }: {
   title: string;
   image: string;
-  url: string;
+  slug: string;
 }) => {
   return (
     <div className="p-4 sm:w-80">
       <Link
-        href={url}
+        href={`/project/${slug}`}
         className="group"
       >
         <div className="h-48 w-full mb-2 overflow-hidden relative">

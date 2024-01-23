@@ -57,7 +57,7 @@ const Footer = () => {
             Trabajo
           </Link>
           <Link
-            href="/#contacto"
+            href="/contacto"
             className="w-1/2 text-gray-200 text-lg mb-2"
           >
             Contacto

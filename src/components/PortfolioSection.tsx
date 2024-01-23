@@ -17,7 +17,7 @@ const PortfolioSection = () => {
               key={e.id}
               title={e.title}
               image={e.image}
-              url={e.url}
+              slug={e.slug}
             />
           );
         })}
