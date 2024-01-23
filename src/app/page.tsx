@@ -8,12 +8,12 @@ import ServicesSection from "@/components/ServicesSection";
 export default function Home() {
   return (
     <main className="flex flex-col gap-4">
-      {/* <HeroSection /> */}
+      <HeroSection />
       {/* <IndustriesSection /> */}
-      {/* <ClientsSection />
-      <ServicesSection /> */}
+      <ClientsSection />
+      <ServicesSection />
       {/* <PortfolioSection /> */}
-      {/* <ContactSection /> */}
+      <ContactSection />
     </main>
   );
 }
