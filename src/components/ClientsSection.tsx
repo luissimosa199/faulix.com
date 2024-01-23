@@ -23,7 +23,7 @@ const ClientsSection = () => {
         de las siguientes firmas
       </SectionTitle>
       <div className="px-4">
-        <Slider {...settings}>
+        {/* <Slider {...settings}>
           <>
             <div className="flex flex-wrap my-4">
               <div className="w-1/2 h-32">
@@ -144,7 +144,7 @@ const ClientsSection = () => {
               </div>
             </div>
           </>
-        </Slider>
+        </Slider> */}
       </div>
     </section>
   );
