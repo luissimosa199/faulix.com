@@ -9,7 +9,7 @@ const HeroSection = () => {
       className="relative"
       id="inicio"
     >
-      <div className="h-96 mb-36 relative overflow-hidden">
+      <div className="h-96 mb-48 relative overflow-hidden">
         <Image
           className="object-cover absolute"
           src="/images/hero.jpg"
