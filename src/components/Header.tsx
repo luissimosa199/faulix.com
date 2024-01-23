@@ -21,14 +21,14 @@ const Header = ({ agentCookie }: { agentCookie: string | undefined }) => {
   }, [path]);
 
   return (
-    <header className="bg-gray-700 flex justify-between p-4">
+    <header className="bg-gray-700 flex justify-between items-center p-4">
       <div className="">
         <Image
           src="/images/logo.png"
           alt="logo"
-          className="w-48 invert"
-          width={192}
-          height={84}
+          className="w-32 invert"
+          width={128}
+          height={42}
         />
       </div>
 

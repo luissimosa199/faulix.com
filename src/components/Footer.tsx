@@ -9,9 +9,9 @@ const Footer = () => {
         <Image
           src="/images/logo.png"
           alt="logo"
-          className="w-48 invert"
-          width={192}
-          height={84}
+          className="w-32 invert"
+          width={148}
+          height={42}
         />
       </div>
 
@@ -20,9 +20,9 @@ const Footer = () => {
           <Image
             src="/images/logo.png"
             alt="logo"
-            className="w-48 invert"
-            width={192}
-            height={84}
+            className="w-32 invert"
+            width={148}
+            height={42}
           />
         </div>
         <div className="flex flex-wrap">

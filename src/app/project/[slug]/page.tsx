@@ -33,9 +33,11 @@ const Project = ({ params: { slug } }: { params: { slug: string } }) => {
           <h1 className="text-orange-500 font-semibold text-6xl">
             {project.title}
           </h1>
-          <div className="bg-orange-500 opacity-85 px-4 py-2 rounded-md my-4 w-fit ">
-            <Link href={project.url}>Ir a la web</Link>
-          </div>
+          {project.url && (
+            <div className="bg-orange-500 opacity-85 px-4 py-2 rounded-md my-4 w-fit ">
+              <Link href={project.url}>Ir a la web</Link>
+            </div>
+          )}
         </div>
       </section>
       <section>
