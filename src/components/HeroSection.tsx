@@ -10,14 +10,14 @@ const HeroSection = () => {
       id="inicio"
     >
       <div className="h-96 mb-72 min-[390px]:mb-56 sm:mb-36 relative overflow-hidden">
-        {/* <Image
+        <Image
           className="object-cover absolute"
           src="/images/hero.jpg"
           alt="hero"
           fill
           sizes="100vw"
           priority
-        /> */}
+        />
       </div>
       <div className="mx-4 p-8 bg-gray-200 flex flex-col gap-2 absolute top-60 sm:max-w-[500px] lg:ml-48 sm:top-48 ">
         <h2 className="font-semibold text-lg">
